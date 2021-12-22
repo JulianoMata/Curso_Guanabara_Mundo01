@@ -4,7 +4,7 @@ venceu ou perdeu. """
 
 
 numero = float(input("Digite um número: "))
-num = numero.random(1, 5)
+num = numero
 if numero == num:
     print(f"O número é {numero} ")
 else:
