@@ -12,3 +12,5 @@ else:
     print(f"O valor da viagem foi {distancia * valor2 :.2f}")
 
 
+
+
