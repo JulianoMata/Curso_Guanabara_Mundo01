@@ -1,1 +1,10 @@
-# testando conexão
+# Faça um programa que leia um ano qualquer e mostre se ele é bissexto
+
+from datetime import date   # importa metodo date da biblioteca datetime
+ano = int(input("Digite o ano: "))
+if ano == 0:
+    ano = date.today().year   # ano atual
+elif ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print(f"O ano {ano} não é Bissexto")
+else:
+    print(f"O ano {ano} é Bissexto")
