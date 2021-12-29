@@ -21,4 +21,4 @@
 # OUTRO MODO SEM IMPORTAÇÃO DE RETORNAR VALOR INTEIRO NO NUMERO.
 
 num = float(input("Digite um numero: "))
-print(f"O numero digitado foi {num} e seu porção inteira foi {int(num)}")
+print(f"O numero digitado foi {num} e sua porção inteira foi {int(num)}")

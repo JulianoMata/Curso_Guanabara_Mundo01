@@ -12,6 +12,3 @@ if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
     print("Os lados acima PODEM formar um triângulo!")
 else:
     print("Os lados acima NÃO PODEM formar um triângulo!")
-
-
-
